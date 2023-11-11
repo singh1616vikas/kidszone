@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kidszone - Kids Education and Shop Template</title>
+
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <!-- favicon -->
+    <link rel="icon" href="images/favicon.png">
+
+    <!-- fontawesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <!-- Header  -->
+    <header class="header">
+        <div class="top-nav">
+            <div class="left">
+                <a href="#"><i class="fa-solid fa-phone"></i><span>(+123)-456-7890</span></a>
+                <a href="#"><i class="fa-solid fa-envelope"></i><span>info@kid.gmail.com</span></a>
+            </div>
+            <div class="right">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg bg-white">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo.png" alt="" class="logo">
+                </a>
+
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <!-- Navbar Collapse -->
+
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav mx-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link active link1" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link2" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link link3 btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false" href="#">Pages</a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="#">Courses</a></li>
+                                <li><a class="dropdown-item" href="#">Teachers</a></li>
+                                <li><a class="dropdown-item" href="#">Events</a></li>
+                                <li><a class="dropdown-item" href="#">Photo Gallery</a></li>
+                                <li><a class="dropdown-item" href="#">Pricing Table</a></li>
+                                <li><a class="dropdown-item" href="#">Time Table</a></li>
+                                <li><a class="dropdown-item" href="#">Others</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link4" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link5" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link6" href="shop.html">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link7" href="contact.html">Contact</a>
+                        </li>
+
+                    </ul>
+                    <div class="social-link d-flex align-items-center justify-content-lg-end mt-1 mb-2 my-lg-0">
+                        <a href="#" type="button" class="btn position-relative"><i
+                                class="fa-solid fa-cart-shopping"></i>
+                            <span class="position-absolute top-0 start-75 translate-middle badge rounded-pill bg-info">
+                                3
+                                <span class="visually-hidden">unread messages</span>
+                            </span>
+                        </a>
+                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <div class="home">
+        <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                    aria-label="Slide 1" aria-current="true"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"
+                    class=""></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"
+                    class=""></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/hero.jpg" alt="" class="w-100">
+                    <div class="container">
+                        <div class="carousel-caption text-start">
+                            <p class="h1">Friendly Atmosphere</p>
+                            <p class="display-2 fw-bold">Play and Create For New things</p>
+                            <p><a class="btn btn-lg main-btn" href="#">View More</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/hero-1.jpg" alt="" class="w-100">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <p class="h1">Welcome to Kids School</p>
+                            <p class="display-2 fw-bold">Play and Create For New things</p>
+                            <p><a class="btn btn-lg main-btn" href="#">View More</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/hero-2.jpg" alt="" class="w-100">
+                    <div class="container">
+                        <div class="carousel-caption text-end">
+                            <p class="h1">Dedicated to excellence</p>
+                            <p class="display-2 fw-bold">Play and Create For New things</p>
+                            <p><a class="btn btn-lg main-btn" href="#">View More</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <section class="features my-5 py-5">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-4 g-4 text-center">
+                <div class="col">
+                    <div class="card border-sky">
+                        <img src="images/great-teacher.png" class="card-imag border-sky rounded-4" alt="...">
+                        <div class="card-body">
+                            <h4 class="fw-bold text-info">Great teacher</h4>
+                            <p class="card-text">We provides always our best solution. Creative skill and a joy found
+                                activities.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-yellow">
+                        <img src="images/nutritious-meal.png" class="card-imag border-yellow bg-warning rounded-4"
+                            alt="...">
+                        <div class="card-body">
+                            <h4 class="fw-bold text-warning">Nutritious Meal</h4>
+                            <p class="card-text">We provides always our best solution. Creative skill and a joy found
+                                activities.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-green">
+                        <img src="images/learn&play.png" class="card-imag border-green bg-success rounded-4" alt="...">
+                        <div class="card-body">
+                            <h4 class="fw-bold text-success">Learn & Play</h4>
+                            <p class="card-text">We provides always our best solution. Creative skill and a joy found
+                                activities.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-pink">
+                        <img src="images/cuteEnviroment.png" class="card-imag border-pink bg-danger rounded-4"
+                            alt="...">
+                        <div class="card-body">
+                            <h4 class="fw-bold text-danger">Cute Enviroment</h4>
+                            <p class="card-text">We provides always our best solution. Creative skill and a joy found
+                                activities.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="courses">
+        <div class="container">
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row row-cols-1 row-cols-md-3 g-4">
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="images/activeLearn.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Active Learning</h5>
+                                        <p class="card-text">Our kids extracurricular activities and games that children
+                                            love after school activities.</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <small class="text-body-secondary">Last updated 3 mins ago</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="images/swimmingClass.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Swimming Class</h5>
+                                        <p class="card-text">Our kids extracurricular activities and games that children
+                                            love after school activities.</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <small class="text-body-secondary">Last updated 3 mins ago</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="images/gamingClass.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Gaming Class</h5>
+                                        <p class="card-text">Our kids extracurricular activities and games that children
+                                            love after school activities.</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <small class="text-body-secondary">Last updated 3 mins ago</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row row-cols-1 row-cols-md-3 g-4">
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="images/gamingClass.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Gaming Class</h5>
+                                        <p class="card-text">Our kids extracurricular activities and games that children
+                                            love after school activities.</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <small class="text-body-secondary">Last updated 3 mins ago</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="images/paintingClass.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Painting Class</h5>
+                                        <p class="card-text">Our kids extracurricular activities and games that children
+                                            love after school activities.</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <small class="text-body-secondary">Last updated 3 mins ago</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="images/yogaClass.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Yoga Class</h5>
+                                        <p class="card-text">Our kids extracurricular activities and games that children
+                                            love after school activities.</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <small class="text-body-secondary">Last updated 3 mins ago</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="about mt-5 py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-lg-7 col-xl-6">
+                    <div class="about-details">
+                        <p class="h1">About Us</p>
+                        <p>The School is your child’s first experience consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore
+                            et dolore magna aliqua.</p>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. Excepteur sint
+                            occaecat cupidatat non proident explicabo. </p>
+                        <a href="#" class="btn">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery mt-5 py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="display-6 fw-bold text-center">Gallery</p>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-4 g-4">
+                <div class="col-lg-3 col-md-4 col-6">
+                    <div class="card">
+                        <img src="images/gallery1.jpg" class="card-img-top" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <div class="card">
+                        <img src="images/gallery2.jpg" class="card-img-top" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <div class="card">
+                        <img src="images/gallery3.jpg" class="card-img-top" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <div class="card">
+                        <img src="images/gallery4.jpg" class="card-img-top" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <div class="card">
+                        <img src="images/gallery5.jpg" class="card-img-top" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <div class="card">
+                        <img src="images/gallery6.jpg" class="card-img-top" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <div class="card">
+                        <img src="images/gallery7.jpg" class="card-img-top" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <div class="card">
+                        <img src="images/gallery8.jpg" class="card-img-top" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="counter mt-5 py-4 bg-info">
+        <div class="container mt-lg-2 mt-sm-0">
+            <div class="row">
+                <div class="col-lg-3 col-6">
+                    <div class="counter-block text-center">
+                        <h4 class="countup">74</h4>
+                        <p>Teachers</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <div class="counter-block text-center">
+                        <h4 class="countup">45</h4>
+                        <p>Classroom</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <div class="counter-block text-center">
+                        <h4 class="countup">22</h4>
+                        <p>Program</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <div class="counter-block text-center">
+                        <h4 class="countup">12</h4>
+                        <p>School Bus</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="teachers mt-5 py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="display-6 fw-bold text-center mb-5">Our Teachers</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="teacher-block">
+                        <div class="teacher-img">
+                            <img src="images/teacher-1.jpg" alt="" class="w-100 img-fluid">
+                            <div class="teacher-overlay">
+                                <ul class="bg-sky">
+                                    <li>
+                                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="teacher-text text-center">
+                            <h4 class="text-info">Henrite Bridg</h4>
+                            <p>Founder & Head</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="teacher-block">
+                        <div class="teacher-img">
+                            <img src="images/teacher-2.jpg" alt="" class="w-100 img-fluid">
+                            <div class="teacher-overlay">
+                                <ul class="bg-yellow text-yellow">
+                                    <li>
+                                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="teacher-text text-center">
+                            <h4 class="text-warning">Priscila Baker</h4>
+                            <p>Principal</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="teacher-block">
+                        <div class="teacher-img">
+                            <img src="images/teacher-3.jpg" alt="" class="w-100 img-fluid">
+                            <div class="teacher-overlay">
+                                <ul class="bg-pink text-pink">
+                                    <li>
+                                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="teacher-text text-center">
+                            <h4 class="text-danger">Horothy Hulese</h4>
+                            <p>Maths Educator</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="teacher-block">
+                        <div class="teacher-img">
+                            <img src="images/teacher-4.jpg" alt="" class="w-100 img-fluid">
+                            <div class="teacher-overlay">
+                                <ul class="bg-green text-green">
+                                    <li>
+                                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="teacher-text text-center">
+                            <h4 class="text-success">Henrite Bridg</h4>
+                            <p>Founder & Head</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="news mt-3 py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="display-6 fw-bold text-center mb-5">Latest News</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="news-block">
+                        <div class="news-img">
+                            <img src="images/blog-1.jpg" alt="" class="w-100 img-fluid">
+                            <div class="date-details">
+                                <span class="date">10</span>
+                                <p class="month">Jan</p>
+                            </div>
+                        </div>
+                        <div class="news-details">
+                            <ul class="blog-data">
+                                <li><a href="#"><i class="fa-solid fa-user"></i>Admin</a></li>
+                                <li><a href="#"><i class="fa-solid fa-comments"></i>4 Comments</a></li>
+                            </ul>
+                            <h4>It's time to back to school for teach</h4>
+                            <p>Coluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                                cupidatat explicabo.</p>
+                            <a href="#">read more...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="news-block">
+                        <div class="news-img">
+                            <img src="images/blog-2.jpg" alt="" class="w-100 img-fluid">
+                            <div class="date-details">
+                                <span class="date">10</span>
+                                <p class="month">Jan</p>
+                            </div>
+                        </div>
+                        <div class="news-details">
+                            <ul class="blog-data">
+                                <li><a href="#"><i class="fa-solid fa-user"></i>Admin</a></li>
+                                <li><a href="#"><i class="fa-solid fa-comments"></i>6 Comments</a></li>
+                            </ul>
+                            <h4>This child game is easily you can go up</h4>
+                            <p>Coluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                                cupidatat explicabo.</p>
+                            <a href="#">read more...</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="position-relative mt-5">
+        <div class="footer-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-12 mb-sm-2">
+                        <div class="footer mb-3">
+                            <img src="images/logo.png" alt="" class="w-75 w-sm-150px">
+                        </div>
+                        <p class="mb-3">Adipisci velit, sed quia numquam eius moditempora inciduntdolo magnam
+                            voluptatem.</p>
+                        <a href="about.html" class="text-sky">read more<i
+                                class="fas fa-angle-right ps-1 display-inline-block vertical-align-middle"></i>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 mb-sm-2">
+                        <div class="ps-md-3 ps-sm-0">
+                            <h4>
+                                Useful Links</h4>
+                            <ul class="list-style3">
+                                <li><a href="about.html">About Kidz School</a></li>
+                                <li><a href="login.html">Admission Open</a></li>
+                                <li><a href="photo-gallery.html">Photo Gallery</a></li>
+                                <li><a href="services.html">Best Services</a></li>
+                                <li><a href="teachers.html">Our Teachers</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 mb-ms-2">
+                        <h4 class="mb-2 mb-sm-1">
+                            Opening Hours</h4>
+                        <ul class="list-style2">
+                            <li>Mon-Wed<span class="float-end">08:00-12:00 </span> </li>
+                            <li>Thr-Fri<span class="float-end"> 09:00-01:00</span> </li>
+                            <li>Saturday<span class="float-end">09:00-11:00</span> </li>
+                            <li>Sunday<span class="float-end">Closed</span> </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="ps-md-3 ps-sm-0">
+                            <h4 class="mb-2 mb-sm-1">
+                                Contact Us</h4>
+                            <ul class="contact-info">
+                                <li><i class="fas fa-mobile-alt"></i><a href="tel:01234567890">+1 234 567 890</a></li>
+                                <li><i class="far fa-envelope"></i><a
+                                        href="mailto:addyour@emailhere">addyour@emailhere</a></li>
+                                <li><i class="fas fa-map-marker-alt"></i>
+                                    <a href="#">74 Guild Street 542B, Town MT. NY 10013.</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bar">
+            <div class="container">
+                <p class="m-0">© 2020 Kidszone is Powered by <b>Vikas Singh</b></p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- JS Links Here -->
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+    <!-- custom js -->
+    <script src="js/app.js"></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+
+</body>
+
+</html>

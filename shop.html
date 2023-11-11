@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kidszone - Kids Education and Shop Template</title>
+
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <!-- favicon -->
+    <link rel="icon" href="images/favicon.png">
+
+    <!-- fontawesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <!-- Header  -->
+    <header class="header">
+        <div class="top-nav">
+            <div class="left">
+                <a href="#"><i class="fa-solid fa-phone"></i><span>(+123)-456-7890</span></a>
+                <a href="#"><i class="fa-solid fa-envelope"></i><span>info@kid.gmail.com</span></a>
+            </div>
+            <div class="right">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg bg-white">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo.png" alt="" class="logo">
+                </a>
+
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <!-- Navbar Collapse -->
+
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav mx-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link active link1" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link2" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link link3 btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false" href="#">Pages</a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="#">Courses</a></li>
+                                <li><a class="dropdown-item" href="#">Teachers</a></li>
+                                <li><a class="dropdown-item" href="#">Events</a></li>
+                                <li><a class="dropdown-item" href="#">Photo Gallery</a></li>
+                                <li><a class="dropdown-item" href="#">Pricing Table</a></li>
+                                <li><a class="dropdown-item" href="#">Time Table</a></li>
+                                <li><a class="dropdown-item" href="#">Others</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link4" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link5" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link6" href="shop.html">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link7" href="contact.html">Contact</a>
+                        </li>
+
+                    </ul>
+                    <div class="social-link d-flex align-items-center justify-content-lg-end mt-1 mb-2 my-lg-0">
+                        <a href="#" type="button" class="btn position-relative"><i
+                                class="fa-solid fa-cart-shopping"></i>
+                            <span class="position-absolute top-0 start-75 translate-middle badge rounded-pill bg-info">
+                                3
+                                <span class="visually-hidden">unread messages</span>
+                            </span>
+                        </a>
+                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <section class="aboutbg">
+        <div class="container">
+            <div class="page-title">
+                <p class="display-2 fw-bold">Shop</p>
+                <nav class="d-flex justify-content-center" style="--bs-breadcrumb-divider: '.';"
+                    aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Shop</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <section class="shop my-0 py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="display-6 fw-bold text-center mb-5">Shop</p>
+                </div>
+            </div>
+
+            <div class="row align-items-center">
+                <div class="col-12 bg-body-secondary">
+                    <div class="row py-4">
+                        <div class="col-lg-7 col-md-6 col-12">
+                            <p class="m-0 lh-5">Showing 1–9 of 27 results</p>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-12">
+                            <label>Sort By:</label>
+                            <select class="m-0 w-75 ms-2">
+                                <option value="#?sort=p.sort_order&amp;order=ASC" selected="selected">Default
+                                </option>
+                                <option>Name (A - Z)</option>
+                                <option>Name (Z - A)</option>
+                                <option>Price (Low &gt; High)</option>
+                                <option>Price (High &gt; Low)</option>
+                                <option>Rating (Highest)</option>
+                                <option>Rating (Lowest)</option>
+                                <option>Model (A - Z)</option>
+                                <option>Model (Z - A)</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-2 col-md-6 col-12">
+                            <label>Show:</label>
+                            <select class="m-0 w-50 ms-2">
+                                <option selected="selected">24</option>
+                                <option>25</option>
+                                <option>50</option>
+                                <option>75</option>
+                                <option>100</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-4 row-cols-lg-4 row-cols-2 row-cols-md-3 mt-3 py-5">
+                <div class="col">
+                    <div class="card card-product">
+                        <div class="card-body">
+                            <div class="text-center">
+                                <a href="#"> <img src="images/shop/product-1.jpg" alt="Product" class="mb-3 img-fluid">
+                                </a>
+                            </div>
+                            <p class="fs-6"><a href="#" class="text-inherit text-decoration-none">Baby Romper</a>
+                            </p>
+                            <div>
+                                <small class="text-warning"> <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-half"></i>
+                                </small>
+                                <span class="text-muted small">4.5(149)</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <div><span class="text-dark">$18</span> <span
+                                        class="text-decoration-line-through text-muted">$24</span>
+                                </div>
+                                <div>
+                                    <a href="#" class="btn btn-primary btn-sm">
+                                        <i class="fa-solid fa-plus"></i> Add
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card card-product">
+                        <div class="card-body">
+                            <div class="text-center">
+                                <a href="#"><img src="images/shop/product-2.jpg" alt="Product" class="mb-3 img-fluid">
+                                </a>
+                            </div>
+                            <p class="fs-6"><a href="./pages/shop-single.html"
+                                    class="text-inherit text-decoration-none">School Bag </a></p>
+                            <div class="text-warning">
+                                <small> <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-half"></i></small> <span class="text-muted small">4.5
+                                    (25)</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <div><span class="text-dark">$24</span>
+                                </div>
+                                <div>
+                                    <a href="#" class="btn btn-primary btn-sm">
+                                        <i class="fa-solid fa-plus"></i> Add
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card card-product">
+                        <div class="card-body">
+                            <div class="text-center position-relative">
+                                <a href="#">
+                                    <img src="images/shop/product-3.jpg" alt="Product" class="mb-3 img-fluid">
+                                </a>
+                            </div>
+                            <p class="fs-6"><a href="#" class="text-inherit text-decoration-none">Cocktail Dress</a>
+                            </p>
+                            <div class="text-warning">
+                                <small> <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i></small> <span class="text-muted small">5
+                                    (469)</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <div><span class="text-dark">$32</span> <span
+                                        class="text-decoration-line-through text-muted">$35</span>
+                                </div>
+                                <div>
+                                    <a href="#" class="btn btn-primary btn-sm">
+                                        <i class="fa-solid fa-plus"></i> Add
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card card-product">
+                        <div class="card-body">
+                            <div class="text-center">
+                                <a href="#">
+                                    <img src="images/shop/product-4.jpg" alt="Product" class="mb-3 img-fluid">
+                                </a>
+                            </div>
+                            <p class="fs-6"><a href="./pages/shop-single.html"
+                                    class="text-inherit text-decoration-none">Kids Toys</a></p>
+                            <div class="text-warning">
+
+                                <small> <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-half"></i>
+                                    <i class="bi bi-star"></i></small> <span class="text-muted small">3.5 (456)</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <div><span class="text-dark">$3</span> <span
+                                        class="text-decoration-line-through text-muted">$5</span>
+                                </div>
+                                <div>
+                                    <a href="#" class="btn btn-primary btn-sm">
+                                        <i class="fa-solid fa-plus"></i> Add
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card card-product">
+                        <div class="card-body">
+                            <div class="text-center">
+                                <a href="#!"> <img src="images/shop/product-5.jpg" alt="Product" class="mb-3 img-fluid">
+                                </a>
+                            </div>
+                            <p class="fs-6"><a href="#" class="text-inherit text-decoration-none">Baby Romper</a>
+                            </p>
+                            <div>
+                                <small class="text-warning"> <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-half"></i>
+                                </small>
+                                <span class="text-muted small">4.5(149)</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <div><span class="text-dark">$18</span> <span
+                                        class="text-decoration-line-through text-muted">$24</span>
+                                </div>
+                                <div>
+                                    <a href="#" class="btn btn-primary btn-sm">
+                                        <i class="fa-solid fa-plus"></i> Add
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card card-product">
+                        <div class="card-body">
+                            <div class="text-center">
+                                <a href="#"><img src="images/shop/product-6.jpg" alt="Product" class="mb-3 img-fluid">
+                                </a>
+                            </div>
+                            <p class="fs-6"><a href="./pages/shop-single.html"
+                                    class="text-inherit text-decoration-none">School Bag </a></p>
+                            <div class="text-warning">
+                                <small> <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-half"></i></small> <span class="text-muted small">4.5
+                                    (25)</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <div><span class="text-dark">$24</span>
+                                </div>
+                                <div>
+                                    <a href="#" class="btn btn-primary btn-sm">
+                                        <i class="fa-solid fa-plus"></i> Add
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card card-product">
+                        <div class="card-body">
+                            <div class="text-center position-relative">
+                                <a href="#">
+                                    <img src="images/shop/product-7.jpg" alt="Product" class="mb-3 img-fluid">
+                                </a>
+                            </div>
+                            <p class="fs-6"><a href="#" class="text-inherit text-decoration-none">Cocktail Dress</a>
+                            </p>
+                            <div class="text-warning">
+                                <small> <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i></small> <span class="text-muted small">5
+                                    (469)</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <div><span class="text-dark">$32</span> <span
+                                        class="text-decoration-line-through text-muted">$35</span>
+                                </div>
+                                <div>
+                                    <a href="#" class="btn btn-primary btn-sm">
+                                        <i class="fa-solid fa-plus"></i> Add
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card card-product">
+                        <div class="card-body">
+                            <div class="text-center">
+                                <a href="#">
+                                    <img src="images/shop/product-8.jpg" alt="Product" class="mb-3 img-fluid">
+                                </a>
+                            </div>
+                            <p class="fs-6"><a href="./pages/shop-single.html"
+                                    class="text-inherit text-decoration-none">Kids Toys</a></p>
+                            <div class="text-warning">
+
+                                <small> <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-half"></i>
+                                    <i class="bi bi-star"></i></small> <span class="text-muted small">3.5 (456)</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <div><span class="text-dark">$3</span> <span
+                                        class="text-decoration-line-through text-muted">$5</span>
+                                </div>
+                                <div>
+                                    <a href="#" class="btn btn-primary btn-sm">
+                                        <i class="fa-solid fa-plus"></i> Add
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-12 p-0">
+                    <div class="pagination text-uppercase">
+                        <ul>
+                            <li><a href="#"><i class="fas fa-long-arrow-alt-left me-2 d-xs-none"></i>
+                                    Prev</a></li>
+                            <li class="active"><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">Next <i class="fas fa-long-arrow-alt-right ms-2 d-xs-none"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="position-relative mt-5">
+        <div class="footer-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-12 mb-sm-2">
+                        <div class="footer mb-3">
+                            <img src="images/logo.png" alt="" class="w-75 w-sm-150px">
+                        </div>
+                        <p class="mb-3">Adipisci velit, sed quia numquam eius moditempora inciduntdolo magnam
+                            voluptatem.</p>
+                        <a href="about.html" class="text-sky">read more<i
+                                class="fas fa-angle-right ps-1 display-inline-block vertical-align-middle"></i>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 mb-sm-2">
+                        <div class="ps-md-3 ps-sm-0">
+                            <h4>
+                                Useful Links</h4>
+                            <ul class="list-style3">
+                                <li><a href="about.html">About Kidz School</a></li>
+                                <li><a href="login.html">Admission Open</a></li>
+                                <li><a href="photo-gallery.html">Photo Gallery</a></li>
+                                <li><a href="services.html">Best Services</a></li>
+                                <li><a href="teachers.html">Our Teachers</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 mb-ms-2">
+                        <h4 class="mb-2 mb-sm-1">
+                            Opening Hours</h4>
+                        <ul class="list-style2">
+                            <li>Mon-Wed<span class="float-end">08:00-12:00 </span> </li>
+                            <li>Thr-Fri<span class="float-end"> 09:00-01:00</span> </li>
+                            <li>Saturday<span class="float-end">09:00-11:00</span> </li>
+                            <li>Sunday<span class="float-end">Closed</span> </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="ps-md-3 ps-sm-0">
+                            <h4 class="mb-2 mb-sm-1">
+                                Contact Us</h4>
+                            <ul class="contact-info">
+                                <li><i class="fas fa-mobile-alt"></i><a href="tel:01234567890">+1 234 567 890</a></li>
+                                <li><i class="far fa-envelope"></i><a
+                                        href="mailto:addyour@emailhere">addyour@emailhere</a></li>
+                                <li><i class="fas fa-map-marker-alt"></i>
+                                    <a href="#">74 Guild Street 542B, Town MT. NY 10013.</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bar">
+            <div class="container">
+                <p class="m-0">© 2020 Kidszone is Powered by <b>Vikas Singh</b></p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- JS Links Here -->
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+    <!-- custom js -->
+    <script src="js/app.js"></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+
+</body>
+
+</html>
