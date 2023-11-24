@@ -253,7 +253,7 @@ li {
     cursor: pointer;
     font-family: 'Signika', sans-serif;
     font-weight: 600;
-    color: #ffffff;
+    color: #ffffff !important;
     letter-spacing: 1px;
     font-size: 18px;
     line-height: 20px;
